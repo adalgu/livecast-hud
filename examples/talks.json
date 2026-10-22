@@ -1,0 +1,58 @@
+{
+  "hints": ["브린들우드 커먼즈", "솔빛 마을"],
+  "glossary": [
+    {"ko": "브린들우드 커먼즈", "say": ["브린들 우드 커먼즈", "브린들우드 커먼스"], "en": "Brindlewood Commons",
+     "bad": ["Brindle Wood Commons", "Brindlewood Common(?!s)"]},
+    {"ko": "솔빛", "en": "Solbit", "proper": true, "bad": ["Solbeat"]},
+    {"ko": "QR 코드", "say": ["큐알 코드", "큐알코드"], "en": "QR code"}
+  ],
+  "spoken_fixes": [
+    {"from": "블린들우드 커먼즈", "to": "브린들우드 커먼즈"},
+    {"from": "솔비 마을", "to": "솔빛 마을"},
+    {"from": "번째 발판", "to": "번째 발표"}
+  ],
+  "english_fixes": [
+    {"from": "Brindelwood", "to": "Brindlewood"},
+    {"from": "Solbich", "to": "Solbit"}
+  ],
+  "talks": {
+    "1": {
+      "name": "Saving Seeds Together",
+      "speaker": "Speaker A",
+      "script": "scripts/talk1.json",
+      "demo": ["s01", "s02", "s03", "s05", "s07", "s08", "s09", "s12"],
+      "hints": ["씨앗 나눔", "텃밭", "품종"],
+      "glossary": [
+        {"ko": "씨앗 도서관", "say": ["씨앗도서관"], "en": "seed library", "bad": ["seed book ?store"]},
+        {"ko": "발아율", "en": "germination rate", "bad": ["sprouting ratio"]},
+        {"ko": "씨앗 교환", "en": "seed swap", "bad": ["seed exchange"]},
+        {"ko": "토종 씨앗", "en": null, "status": "check"}
+      ],
+      "match_aliases": [
+        {"from": "씨앗 스와프", "to": "씨앗 교환"},
+        {"from": "SWAP", "to": "씨앗 교환"}
+      ]
+    },
+    "2": {
+      "name": "Bees on the Roof",
+      "speaker": "Speaker B",
+      "hints": ["옥상 양봉", "분봉", "밀랍"],
+      "glossary": [
+        {"ko": "벌통", "en": "beehive"},
+        {"ko": "양봉가", "en": "beekeeper"},
+        {"ko": "허니루프", "say": ["허니 루프"], "en": "HoneyLoop", "bad": ["Honey Loop"]},
+        {"ko": "꿀벌 지도", "en": "Bee Map", "proper": false}
+      ]
+    },
+    "3": {
+      "name": "Mapping the Night Sky",
+      "speaker": "Speaker C",
+      "hints": ["별자리", "망원경"],
+      "glossary": [
+        {"ko": "광공해", "en": "light pollution"},
+        {"ko": "별지기", "en": "stargazer"},
+        {"ko": "하늘숲 천문대", "say": ["하늘숲천문대"], "en": "Haneulsup Observatory"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Saving Seeds Together (example talk, fictional)",
+  "sentences": [
+    {"id": "s01", "ko": "안녕하십니까, 브린들우드 커먼즈에서 씨앗 도서관을 운영하는 발표자 A입니다.",
+     "en": "Hello, I'm Speaker A, and I run the seed library at Brindlewood Commons."},
+    {"id": "s02", "ko": "씨앗 도서관은 이웃이 씨앗을 빌려 가서 키운 뒤 다음 해에 새 씨앗으로 돌려주는 곳입니다.",
+     "en": "A seed library lends seeds to neighbors, who grow them and bring back new seeds the next year."},
+    {"id": "s03", "ko": "작년 한 해 동안 대출은 340건이었습니다.",
+     "en": "Last year we recorded 340 loans."},
+    {"id": "s04", "ko": "돌아온 씨앗의 발아율은 약 78%였습니다.",
+     "en": "Seeds that came back had a germination rate of about 78%."},
+    {"id": "s05", "ko": "나눔 행사는 매주 토요일 오후 2시부터 5시까지 솔빛 마을 회관에서 열립니다.",
+     "en": "Our sharing day runs every Saturday from 2 to 5 p.m. at the Solbit Village hall."},
+    {"id": "s06", "ko": "씨앗 봉투 하나를 정리하는 데 평균 4.5초가 걸립니다.",
+     "en": "Sorting one seed packet takes 4.5 seconds on average."},
+    {"id": "s07", "ko": "가장 인기 있는 행사는 봄에 여는 씨앗 교환입니다.",
+     "en": "Our most popular event is the seed swap we hold in spring."},
+    {"id": "s08", "ko": "QR 코드로 대출 기록을 남기면 다음 해 품종을 고르기 쉬워집니다.",
+     "en": "Logging loans with a QR code makes it easier to choose next year's varieties."},
+    {"id": "s09", "ko": "올해 목표는 이웃 텃밭 12곳과 함께하는 것입니다.",
+     "en": "This year we aim to work with 12 neighborhood gardens."},
+    {"id": "s10", "ko": "이 비율이 다른 동네에서도 같을지는 아직 모릅니다.",
+     "en": null, "note": "no approved English yet: --mt script leaves the line empty, --mt gcp translates it"},
+    {"id": "s11", "ko": "두 번째 발표에서는 옥상 양봉 이야기를 이어 가겠습니다.",
+     "en": "The second talk continues with rooftop beekeeping."},
+    {"id": "s12", "ko": "들어 주셔서 감사합니다.",
+     "en": "Thank you for listening."}
+  ]
+}
