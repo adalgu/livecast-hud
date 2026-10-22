@@ -129,7 +129,7 @@ def test_conftest_blocks_devices_and_network():
              lambda: translate.urllib_post("http://192.0.2.1", {}, b"", 1)]
     if "sounddevice" in sys.modules:
         calls += [lambda: sys.modules["sounddevice"].RawInputStream(), lambda: sys.modules["sounddevice"].InputStream()]
-    if importlib.util.find_spec("google.auth"):
+    if importlib.util.find_spec("google") and importlib.util.find_spec("google.auth"):
         calls.append(lambda: importlib.import_module("google.auth").default())
     if importlib.util.find_spec("requests"):
         calls.append(lambda: importlib.import_module("requests").Session().request("POST", "http://192.0.2.1"))
