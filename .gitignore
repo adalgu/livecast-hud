@@ -11,3 +11,18 @@ build/
 *.jsonl
 *.wav
 .DS_Store
+# more recordings
+*.m4a
+*.mp3
+*.flac
+*.aiff
+*.ogg
+# credentials
+.env
+*.pem
+*.p12
+*credentials*.json
+*service-account*.json
+*-key.json
+# local copy of examples/ (README)
+my-talk/

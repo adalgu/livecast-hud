@@ -25,7 +25,7 @@ First public release.
 - Per-talk scripts, glossaries, recognition hints and spoken-form fixes loaded from a
   JSON config file (`--config` or `LIVECAST_CONFIG`) instead of being built into the code.
 - Layout with two finished English lines, two dimmer in-progress lines and an optional
-  Korean source line; a connection dot that turns yellow while reconnecting and keeps
+  Korean source line; a connection dot that turns amber while reconnecting and keeps
   the last subtitle on screen.
 - Keyboard and terminal controls to switch talks, move the bar, resize text and toggle
   the Korean line, even while click-through is on.
