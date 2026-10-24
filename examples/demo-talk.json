@@ -1,0 +1,33 @@
+{
+  "title": "How LiveCast HUD works (neutral demo deck, see examples/demo-deck.pptx)",
+  "talks": {
+    "1": {
+      "name": "How LiveCast HUD works",
+      "speaker": "Presenter",
+      "script": "demo-talk.json",
+      "demo": ["d01", "d02", "d03", "d04"]
+    }
+  },
+  "sentences": [
+    {
+      "id": "d01",
+      "ko": "안녕하세요, 오늘은 자막 도구를 소개합니다.",
+      "en": "Hello, today I will introduce a subtitle tool."
+    },
+    {
+      "id": "d02",
+      "ko": "먼저 음성을 듣고 문장으로 바꿉니다.",
+      "en": "First, it listens and turns speech into sentences."
+    },
+    {
+      "id": "d03",
+      "ko": "그다음 준비한 대본과 용어집을 맞춰 봅니다.",
+      "en": "Then it matches your prepared script and glossary."
+    },
+    {
+      "id": "d04",
+      "ko": "마지막으로 슬라이드 위에 자막을 띄웁니다.",
+      "en": "Finally, it shows the subtitles over your slides."
+    }
+  ]
+}

@@ -10,6 +10,19 @@ wrote yourself, with no cloud translation at all.
 
 ![The subtitle bar: two English lines, a dimmer line for the sentence in progress, and the Korean line](docs/screenshot.png)
 
+## Demo
+
+![Demo: a neutral example deck with the app's subtitle bar over it](docs/demo.gif)
+
+This was made in demo mode (no microphone): the app typed a script and drew the bar, and the
+frames put the app's own bar over the deck's slides at its real position on a 2560x1080 screen.
+Live mode uses Google speech recognition instead.
+
+- [Demo deck (PPTX)](examples/demo-deck.pptx) and its [slide images](docs/demo/). The deck is
+  made-up, neutral content in Korean, set in the free Nanum Gothic font.
+- Play it yourself: `livecast-hud --config examples/demo-talk.json`
+- Full-size frames: [one](docs/demo/demo-1.png), [two](docs/demo/demo-2.png)
+
 ## Why use it
 
 - **Your English, not a guess.** Sentences from your script show the translation you
